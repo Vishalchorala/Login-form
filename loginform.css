@@ -1,0 +1,135 @@
+body {
+
+
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "XROT" 0,
+        "YROT" 0;
+
+}
+
+.content {
+    background-image: url(./loginform3.webp);
+    padding: 15%;
+    display: flex;
+
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* gap: 20px; */
+    background-repeat: no-repeat;
+    background-size: 207% 144%;
+
+
+}
+
+.innercontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    gap: 20px;
+    border-radius: 50%;
+    height: 400px;
+    padding: 40px 30px;
+    margin-top: 100px;
+    box-shadow: -5px -5px 9px #aaa9a9a2,
+        5px 5px 7px rgba(147, 149, 151, 0.671);
+    /* background-color: bisque; */
+    /* filter: blur(6px); */
+    backdrop-filter: blur(15px);
+
+}
+
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+
+}
+
+.loginbtn {
+    background-color: aliceblue;
+    color: rgb(254, 162, 3);
+    padding: 15px;
+    border: none;
+    padding: 15px;
+    width: 40%;
+    border-radius: 20%;
+    transition: 0.4s;
+}
+
+.loginbtn:hover {
+    background-color: rgb(252, 156, 0);
+    color: black;
+    border: 1px solid black;
+
+}
+
+
+.forgotpsw {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    font-size: 14px;
+    color: aliceblue;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+::placeholder {
+    color: rgb(255, 187, 0);
+    opacity: 1;
+    /* Firefox */
+}
+
+::-ms-input-placeholder {
+    /* Edge 12-18 */
+    color: rgb(255, 248, 248);
+}
+
+#emailbox {
+    background-color: white;
+    border: none;
+    padding: 15px;
+    border: 2px yellow;
+    margin: 10px;
+    width: 100%;
+    transition: 0.4s;
+
+}
+
+#emailbox:hover {
+    background-color: rgb(103, 76, 34);
+    color: aliceblue;
+    border: 1px solid black;
+
+
+}
+
+#passwordbox {
+    background-color: white;
+    border: none;
+    padding: 15px;
+    border: 2px yellow;
+    margin: 10px;
+    width: 100%;
+    transition: 0.4s;
+}
+
+#passwordbox:hover {
+    background-color: rgb(103, 76, 34);
+    color: wheat;
+    border: 1px solid black;
+
+}
