@@ -1,6 +1,5 @@
-Here’s a simple README description for your login form project:
+Simple Login Form :
 
-Simple Login Form
 This project is a Simple Login Form built using HTML and CSS. The form allows users to input their credentials, and their input values are displayed in the browser's console for testing purposes.
 
 Features
